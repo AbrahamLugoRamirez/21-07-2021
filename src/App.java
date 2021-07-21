@@ -13,17 +13,12 @@ public class App {
              matrix[i][j]  = vector[j];
             }
         }
-
-
         for (int i = 0; i < 18; i++) {
             for (int j = 0; j < 4; j++) {
-
-                System.out.print(matrix[i][j]);
-                
+                System.out.print(matrix[i][j]);                
             }
             System.out.println(" ");
         }
-
 
     }
 }
